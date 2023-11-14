@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 6em;
+            font-variant: small-caps;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 3em;
+            font-variant: small-caps;
+        }
+
+        #experience_form label {
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+        }
+
+        #experience_form input[type="text"],
+        input[type="email"] {
+            width: 300px;
+        }
+
+        #experience_form textarea {
+            width: 100%;
+            height: 100px;
+        }
+
+        .container {
+            margin-top: 0;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+            max-width: 960px;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .article {
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between; 
+            margin-bottom: 20px;
+        }
+
+        .article>div {
+            width: 48%; 
+        }
+
+        .article img {
+            width: 100%;
+        }
+
+        .article-reverse {
+            flex-direction: row-reverse; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="space_cover.jpg" alt="picture of space">
+
+    <h1>
+        Space Suit Expenses
+    </h1>
+
+    <div class="container">
+        <div class="article">
+            <div>
+                <img src="spaceSuitBreakdown1.jpg" alt="explaining space suit's parts">
+            </div>
+            <div>
+                <h2>
+                    What makes them so expensive?
+                </h2>
+                <p>
+                    Think about them in terms of spacecraft, not as work clothes. A spacesuit has to protect an astronaut from the vacuum of space, from radiation coming from the sun and other bodies, and it has to protect against fast-traveling particles that are traveling up to 18,000 miles an hour that could penetrate the suit.
+                </p>
+            </div>
+        </div>
+
+        <div class="article article-reverse">
+            <div>
+                <img src="astronautInSpace.jpg" alt="astronaut out in space">
+            </div>
+            <div>
+                <h2>
+                    How much do they cost?
+                </h2>
+                <p>
+                    NASA's new spacesuits cost $3.5 billion. Axiom won a $228 million contract last year to create a suit for the Artemis III mission in 2025. Collins Aerospace was awarded $97.2 million for an ISS spacesuit.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Space Suit's Expenses
+    </footer>
+
+</body>
+
+</html>
